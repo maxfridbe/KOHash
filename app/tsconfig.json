@@ -1,0 +1,34 @@
+{
+    "version": "1.5.0-beta",
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "./**/*.tsx",
+        "!./node_modules/**/*"
+    ],
+    "files": [
+        "./ambient.d.ts",
+        "./kohash/kohash.ts",
+        "./main.ts",
+        "./pages/viewmodels/page1ViewModel.ts",
+        "./typings/es6-promise/es6-promise.d.ts",
+        "./typings/knockout/knockout.d.ts",
+        "./typings/systemjs/systemjs.d.ts",
+        "./typings/tsd.d.ts",
+        "./typings/whatwg-fetch/whatwg-fetch.d.ts"
+    ]
+}
